@@ -1,3 +1,3 @@
 # My cv
 
-View my cv on https://github.com/TormentedTraveler/cv
+View my cv on [Github pages](https://tormentedtraveler.github.io/cv/)
