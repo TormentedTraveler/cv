@@ -1,0 +1,119 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Font Styles */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+/* CV Container */
+.cv-container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  line-height: 1.6;
+}
+
+/* Header Section */
+.header {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #0077cc;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.profile-img {
+  margin-right: 30px;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+}
+
+.profile-info {
+  text-align: left;
+}
+
+.profile-info h1 {
+  font-family: 'Lora', serif;
+  font-weight: 600;
+  font-size: 2.2em;
+  margin-bottom: 5px;
+}
+
+.profile-info .title {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+.contact-info {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.contact-info a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+/* Section Styles */
+.section {
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  font-family: 'Lora', serif;
+  font-size: 1.8em;
+  color: #0077cc;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+
+/* List Styles */
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  font-size: 1em;
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* Link Styles */
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Social Links Section */
+.social ul {
+  list-style-type: none;
+}
+
+.social ul li {
+  margin: 5px 0;
+}
